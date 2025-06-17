@@ -53,3 +53,9 @@ simple_processor/
 **Hình ảnh Waveform**
 ![](./waveform.png)
 
+
+**Cách chạy mô phỏng nhanh:**
+- **Bước 1** : mở terminal tại folder chứa project
+- **Bước 2**: gõ lệnh `vlib work` (để tạo thư viện mô phỏng)
+- **Bước 3**: gõ lệnh `vlog ./testbench/*.v` ( để compile file testbench)
+- **Bước 4**: gõ lệnh `vsim MIPSCPU_tb` ( bắt đầu chạy mô phỏng)
